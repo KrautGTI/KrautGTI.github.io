@@ -1,0 +1,13 @@
+name: My Workflow
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "AIzaSyATxl34B9Y6uF24WMVSuFzVjn6jsdw_kTw"
+          replace: "AIzaSyAaPkE2eLJnn1ZZZpzT-qw8xkFVUiEQ4_U"
+          regex: false
