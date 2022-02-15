@@ -276,26 +276,26 @@ table {
   cursor: pointer;
 }
 .Button--primary {
-  background-color: #00bd94;
+  background-color: #fff;
   color: #fff;
-  box-shadow: 0 0 0 0 transparentize(#00bd94, 0.7);
+  box-shadow: 0 0 0 0;
 }
 .Button--primary:focus {
   outline: 0;
-  box-shadow: 0 0 6px 2px transparentize(#00bd94, 0.7);
+  box-shadow: 0 0 6px 2px;
 }
 .Button--primary:hover {
-  background-color: #009474;
+  background-color: #fff;
 }
 .Button--secondary {
   background-color: transparent;
-  color: #00bd94;
-  border-color: #00bd94;
-  box-shadow: 0 0 0 0 transparentize(#00bd94, 0.7);
+  color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 0 0;
 }
 .Button--secondary:focus {
   outline: 0;
-  box-shadow: 0 0 6px 2px transparentize(#00bd94, 0.7);
+  box-shadow: 0 0 6px 2px;
 }
 .Button--secondary:hover {
   background-color: #b3ffee;
